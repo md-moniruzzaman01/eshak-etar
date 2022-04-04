@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { DataContext } from './Dashboard';
 
-const Linechart = ({chartData}) => {
+const Linechart = ( ) => {
+  const chartData = useContext(DataContext);
     return (
         <div>
              <h2 className='font-heading text-3xl text-center mb-11'>Sall of month</h2>

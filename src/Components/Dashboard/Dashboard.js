@@ -7,17 +7,19 @@ import Linechart from './Linechart';
 import Piechart from './PieChart';
 import Barchat from './Barchat';
 
+export const DataContext = React.createContext();
 const Dashboard = () => {
     const [chartData ,setChartData] =useChartData();
     const {month,investment,revenue,sell} = chartData
-    console.log(chartData);
     return (
        <div className='grid min-h-[1260px] sm:grid-cols-1 md:grid-cols-2'>
-           <Linechart chartData={chartData}></Linechart>
+           <DataContext.Provider value={chartData}>
+           <Linechart ></Linechart>
           
-           <Areacharts chartData={chartData}></Areacharts>
-           <Barchat  chartData={chartData}></Barchat >
-           <Piechart  chartData={chartData}></Piechart>
+           <Areacharts ></Areacharts>
+           <Barchat  ></Barchat >
+           <Piechart ></Piechart>
+           </DataContext.Provider>
        </div>
             
           );

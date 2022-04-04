@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
+import { DataContext } from './Dashboard';
 
-const Piechart = ({chartData}) => {
+const Piechart = () => {
+  const chartData = useContext(DataContext);
     return (
         <div>
             <h2 className='font-heading text-3xl ml-9'>investment Vs revenue</h2>

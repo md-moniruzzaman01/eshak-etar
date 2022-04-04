@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import { DataContext } from './Dashboard';
 
-const Areacharts = ({chartData}) => {
+const Areacharts = ( ) => {
+  const chartData = useContext(DataContext);
     return (
         <div>
            <h2 className='font-heading text-3xl text-center mb-11'>Invesment vs revenue</h2>

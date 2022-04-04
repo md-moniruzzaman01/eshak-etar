@@ -1,0 +1,21 @@
+[
+    {   
+        "id": 1,
+        "img": "https://i0.wp.com/redeyecoding.com/wp-content/uploads/2020/06/React-Context-AP.png?fit=560%2C315&ssl=1",
+        "title": "What Is Context and Why Is It Useful?",
+        "body": "Context allows passing data through the component tree without passing props down manually at every level. In React application, we passed data in a top-down approach via props. Sometimes it is inconvenient for certain types of props that are required by many components in the React application. Context provides a way to pass values between components without explicitly passing a prop through every level of the component tree."
+    },
+    {   
+        "id": 2,
+        "img": "https://www.thoughtco.com/thmb/lzj0HsBfSYcJkhIma-QaG7NH-v0=/1732x1231/filters:fill(auto,1)/GettyImages-663932038-6a057cdc923147bf99f1cee4654a1032.jpg",
+        "title": "What is semantics tag?",
+        "body": "Context allows passing data through the component tree without passing props down manually at every level. In React application, we passed data in a top-down approach via props. Sometimes it is inconvenient for certain types of props that are required by many components in the React application. Context provides a way to pass values between components without explicitly passing a prop through every level of the component tree."
+    },
+    {   
+        "id": 3,
+        "img": "https://alligator.io/images/css/inline-v-inline-block.png",
+        "title": "CSS Inline vs Inline-Block vs Block",
+        "body": "The display property specifics the display behavior of an element. It’s a must know for controlling the layout of an element. There’s a bunch of property values. But let’s start off with the essential inline.This one displays the element inline or on the same line. In other words, inline elements do NOT start on a new line and only takes up as much width as its content. So, if you try to set any width and height, it will have NO effects."
+    }
+   
+]

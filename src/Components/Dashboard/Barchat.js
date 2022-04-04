@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { DataContext } from './Dashboard';
 
-const Barchat = ({chartData}) => {
+const Barchat = () => {
+  const chartData = useContext(DataContext);
     return (
         <div>
            <h2 className='font-heading text-3xl text-center mb-11'>investment and revenue</h2>
