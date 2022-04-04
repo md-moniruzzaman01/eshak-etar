@@ -7,7 +7,7 @@ const ReviewSection = ({Review}) => {
     
     
     return (
-        <div className='border-2 py-7 px-5 h-72 mx-5 relative'>
+        <div className='border-2 py-7 px-5 h-72 m-5 relative'>
            <div className='flex justify-end mb-3'> <h4 className='font-semibold '>{email}</h4></div>
             <p className='italic'>“{body}”</p>
             

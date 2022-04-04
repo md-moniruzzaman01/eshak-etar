@@ -17,10 +17,11 @@ const Header = () => {
            <div>
           
             <ul className={`flex text-lg`}>
-                <li className='pr-5 mx-7'><NavLink className={({ isActive })=> isActive ? 'active' : 'NoActive' } to={'/'}>Home</NavLink></li>
-                <li className='pr-5 mx-7'><NavLink to={'/reviews'}>Reviews</NavLink></li>
-                <li className='pr-5 mx-7'><NavLink to={'/dashboard'}>Dashboard</NavLink></li>
-                <li className='pr-5 mx-7'><NavLink to={'/contact'}>Contact Us</NavLink></li>
+                <li className='pr-2 mx-3'><NavLink className={({ isActive })=> isActive ? 'active' : 'NoActive' } to={'/'}>Home</NavLink></li>
+                <li className='pr-2 mx-3'><NavLink to={'/reviews'}>Reviews</NavLink></li>
+                <li className='pr-2 mx-3'><NavLink to={'/dashboard'}>Dashboard</NavLink></li>
+                <li className='pr-2 mx-3'><NavLink to={'/blogs'}>Blogs</NavLink></li>
+                <li className='pr-2 mx-3'><NavLink to={'/contact'}>Contact Us</NavLink></li>
             </ul>
            </div>
            <div>
