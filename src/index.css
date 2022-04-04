@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=PT+Serif:ital,wght@0,700;1,400&family=Poppins&display=swap');
 
 *{
     padding: 0;

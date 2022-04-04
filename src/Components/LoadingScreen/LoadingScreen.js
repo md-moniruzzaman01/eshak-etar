@@ -1,9 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews';
 import loadingImg from '../../utilitis/image.png'
+import ReviewSection from './ReviewSection/ReviewSection';
 
 const LoadingScreen = () => {
+    const [Reviews,setReviews] = useReviews()
+    const shortReviews = Reviews.slice(0,3);
+    const navigate = useNavigate()
+ 
     return (
-        <div className='grid grid-cols-2 px-7 mx-auto  min-h-[70vh]'>
+        <div>
+            {/* loading section */}
+            <div className='grid grid-cols-2 px-7 mx-auto mt-24  min-h-[70vh]'>
             <div className='space-y-8 mt-11'>
               
                 <h1 className='text-6xl leading-tight font-heading font-normal  text-[#2d2d2d]'>
@@ -24,6 +33,29 @@ const LoadingScreen = () => {
             <div>
                 <img className='w-[28rem]  mx-auto' src={loadingImg} alt="" />
             </div>
+        </div>
+        {/* review section */}
+        <div className='min-h-screen'>
+        <h3 className='text-4xl text-center font-basic font-semibold '>customer reviews ({shortReviews.length})</h3>
+            <h2 className='text-3xl mt-14 font-heading  font-normal'>What Our Customar Saying?</h2>
+        <div className='grid grid-cols-3 mt-14'>
+            {
+               shortReviews.map(review => <ReviewSection key={review._id} Review={review}></ReviewSection>) 
+            }
+        
+        </div>
+
+
+            <div className='flex justify-end mr-5 mt-7'> <button onClick={()=> navigate('/reviews')} className='bg-themeColor px-7 py-3 text-white font-basic rounded-sm'>See All Reviews</button></div>
+
+        </div>
+
+
+
+
+
+
+
         </div>
     );
 };
