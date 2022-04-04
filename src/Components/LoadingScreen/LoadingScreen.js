@@ -46,7 +46,7 @@ const LoadingScreen = () => {
         </div>
 
 
-            <div className='flex justify-end mr-5 mt-7'> <button onClick={()=> navigate('/reviews')} className='bg-themeColor px-7 py-3 text-white font-basic rounded-sm'>See All Reviews</button></div>
+            <div className='flex justify-end mr-5 mt-7'> <button onClick={()=> navigate('/reviews')} className='border-2 border-themeColor px-7 py-3 text-themeColor font-basic rounded-sm'>See All Reviews</button></div>
 
         </div>
 
