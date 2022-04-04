@@ -9,8 +9,11 @@ import './App.css';
 import Errorpage from './Components/Errorpage/Errorpage';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Reviews from './Components/Reviews/Reviews';
+import DetailsBlogPage from './Components/Blogs/DetailsBlogPage';
+import useBlogs from './hooks/useBlogs';
 
 function App() {
+  const [blogs ,setblogs] = useBlogs()
   return (
     <div className="App max-w-7xl mx-auto">
       <Header></Header>
@@ -21,6 +24,7 @@ function App() {
         <Route path="dashboard" element={ <Dashboard/> } />
         
         <Route path="blogs" element={ <Blogs/>  } />
+        <Route path="/blogs/:idea" element={ <DetailsBlogPage blogs={blogs}/>  } />
         <Route path="contact" element={ <About/> } />
         <Route path="*" element={ <Errorpage/> } />
       </Routes>

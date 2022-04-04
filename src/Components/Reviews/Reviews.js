@@ -6,7 +6,7 @@ import SingleReviewBox from './SingleReviewBox';
 const Reviews = () => {
     const [Reviews , setReviews] = useReviews()
     const [reviews,setreviews] =useReviews();
-    console.log(reviews);
+    
     return (
         <div>
            {

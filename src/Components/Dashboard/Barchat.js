@@ -5,7 +5,7 @@ import { DataContext } from './Dashboard';
 const Barchat = () => {
   const chartData = useContext(DataContext);
     return (
-        <div>
+        <div className='max-h-[500px]'>
            <h2 className='font-heading text-3xl text-center mb-11'>investment and revenue</h2>
               <ResponsiveContainer width="100%" height="100%">
         <BarChart

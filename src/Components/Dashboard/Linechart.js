@@ -5,7 +5,7 @@ import { DataContext } from './Dashboard';
 const Linechart = ( ) => {
   const chartData = useContext(DataContext);
     return (
-        <div>
+        <div className='max-h-[500px]'>
              <h2 className='font-heading text-3xl text-center mb-11'>Sall of month</h2>
             <LineChart
       width={500}
