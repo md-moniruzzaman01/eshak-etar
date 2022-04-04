@@ -1,10 +1,13 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
+import SingleReviewBox from './SingleReviewBox';
 
 const Reviews = () => {
+    const [reviews,setreviews] =useReviews();
+    console.log(reviews);
     return (
         <div>
-            <h1>reviews</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam facilis officiis repellat corporis sequi expedita ab amet voluptate at eos impedit sint, suscipit voluptates placeat, error optio, reiciendis a?</p>
+            <SingleReviewBox></SingleReviewBox>
             
         </div>
     );

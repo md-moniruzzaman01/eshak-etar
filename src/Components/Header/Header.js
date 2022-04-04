@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className='flex items-center justify-between  font-basic px-3 mx-auto py-11 '>
             <div>
-               <h1 className='text-3xl text-themeColor font-bold'>Attar</h1>
+               <h1 className='text-3xl text-themeColor font-bold'>Eshak</h1>
               
             </div>
 
