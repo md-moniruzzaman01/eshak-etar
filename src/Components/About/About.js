@@ -16,12 +16,12 @@ const About = () => {
 
                   </div>
                   <div className='flex justify-end mt-11'>
-                      <button className='px-9 bg-red-600 py-3 rounded text-white font-semibold'>Submit</button>
+                      <button className='px-9 bg-themeColor  py-3 rounded text-white font-semibold'>Submit</button>
                   </div>
                 </form>
             </div>
         </div>
     );
-};
+};  
 
 export default About;

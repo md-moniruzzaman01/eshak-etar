@@ -11,12 +11,14 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import Reviews from './Components/Reviews/Reviews';
 import DetailsBlogPage from './Components/Blogs/DetailsBlogPage';
 import useBlogs from './hooks/useBlogs';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [blogs ,setblogs] = useBlogs()
   return (
-    <div className="App max-w-7xl mx-auto">
-      <Header></Header>
+    <div className="App ">
+     <div className='max-w-7xl mx-auto'>
+     <Header></Header>
       
       <Routes>
         <Route path="/" element={ <LoadingScreen/> } />
@@ -28,7 +30,10 @@ function App() {
         <Route path="contact" element={ <About/> } />
         <Route path="*" element={ <Errorpage/> } />
       </Routes>
+     </div>
+      <Footer></Footer>
     </div>
+
   );
 }
 
