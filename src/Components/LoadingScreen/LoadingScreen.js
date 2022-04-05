@@ -30,7 +30,7 @@ const LoadingScreen = () => {
                     <button className='text-themeColor py-2 px-4  border-2 border-themeColor font-basic lg:px-6 lg:py-3'>Expolre More</button>
                 </div>
             </div>
-            <div>
+            <div  className='lg:order-2'>
                 <img className='w-5/6  mx-auto lg:w-[28rem] ' src={loadingImg} alt="" />
             </div>
         </div>

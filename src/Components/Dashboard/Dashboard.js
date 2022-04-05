@@ -10,7 +10,8 @@ import Barchat from './Barchat';
 export const DataContext = React.createContext();
 const Dashboard = () => {
     const [chartData ,setChartData] =useChartData();
-    const {month,investment,revenue,sell} = chartData
+    const {month,investment,revenue,sell} = chartData;
+
     return (
        <div className='grid min-h-[1260px] sm:grid-cols-1 md:grid-cols-2'>
            <DataContext.Provider value={chartData}>
