@@ -1,21 +1,21 @@
 [
     {   
         "id": 1,
-        "img": "https://i0.wp.com/redeyecoding.com/wp-content/uploads/2020/06/React-Context-AP.png?fit=560%2C315&ssl=1",
-        "title": "What Is Context and Why Is It Useful?",
-        "body": "Context allows passing data through the component tree without passing props down manually at every level. In React application, we passed data in a top-down approach via props. Sometimes it is inconvenient for certain types of props that are required by many components in the React application. Context provides a way to pass values between components without explicitly passing a prop through every level of the component tree."
+        "img": "https://miro.medium.com/max/1400/1*zQE3KTxljMTkBxu0mZFB-g.jpeg",
+        "title": "What is Context API?",
+        "body": "The definition of context is the setting within which a work of writing is situated.The React Context API isa way for a React app to effectively produce global variables that can be passed around.The Context API isa React structure that enables you to exchange unique details and assists in solving prop-drilling from alllevels of your application.Context API is a React API that can solve a lot of problems that modern applications face related to state management and how they’re passing state to their components. Instead of installing a state management library in your project that will eventually cost your project performance and increase your bundlesize, you can easily go with Context API and be fine with it."
     },
     {   
         "id": 2,
         "img": "https://www.thoughtco.com/thmb/lzj0HsBfSYcJkhIma-QaG7NH-v0=/1732x1231/filters:fill(auto,1)/GettyImages-663932038-6a057cdc923147bf99f1cee4654a1032.jpg",
-        "title": "What is semantics tag?",
-        "body": "Context allows passing data through the component tree without passing props down manually at every level. In React application, we passed data in a top-down approach via props. Sometimes it is inconvenient for certain types of props that are required by many components in the React application. Context provides a way to pass values between components without explicitly passing a prop through every level of the component tree."
+        "title": "What is Semantic HTML?",
+        "body": "Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation.Elements such as <header>, <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.Semantic elements have meaningful names which tells about type of content.Semantic HTML tag more meaningful to a computerized visitor such as a search engine web crawler, browser translation tools, or assistive technologies such as screen readers.write semantic tag  by selecting and using HTML tags properly, and by selecting tags that convey something about the information marked by the tags."
     },
     {   
         "id": 3,
         "img": "https://alligator.io/images/css/inline-v-inline-block.png",
-        "title": "CSS Inline vs Inline-Block vs Block",
-        "body": "The display property specifics the display behavior of an element. It’s a must know for controlling the layout of an element. There’s a bunch of property values. But let’s start off with the essential inline.This one displays the element inline or on the same line. In other words, inline elements do NOT start on a new line and only takes up as much width as its content. So, if you try to set any width and height, it will have NO effects."
+        "title": "Difference between inline ,block , Inline-Block elements",
+        "body": "Compared to display: inline, the major difference is that inline-block allows to set a width and height on the element. Also, with display: inline, top and bottom margins & paddings are not respected, and with display: inline-block they are.Now, the difference between display: inline-block and display: block is that, with display: block, a line break happens after the element, so a block element doesn’t sit next to other elements. However, CSS has two different types of boxes — block and inline.A block element always starts on a new line, and fills up the horizontal space left and right on the web page. You can add margins and padding on all four sides of any block element — top, right, left, and bottom.Some examples of block elements are <div> and <p> tags."
     }
    
 ]
