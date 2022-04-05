@@ -8,7 +8,7 @@ const Reviews = () => {
     const [reviews,setreviews] =useReviews();
     
     return (
-        <div className='min-h-screen'>
+        <div className='min-h-screen w-full'>
            {
                Reviews.map(review => <SingleReviewBox key={review._id} Review ={review}></SingleReviewBox>)
            }

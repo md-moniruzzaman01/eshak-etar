@@ -7,8 +7,12 @@ const ReviewSection = ({Review}) => {
     
     
     return (
-        <div className='border-2 py-7 px-5 h-72 m-5 relative'>
-           <div className='flex justify-end mb-3'> <h4 className='font-semibold '>{email}</h4></div>
+        <div className='  w-full  p-2 '>
+          <div className='border-2 relative py-7 px-5 h-72'>
+
+
+
+          <div className='flex justify-end mb-3'> <h4 className='font-semibold '>{email}</h4></div>
             <p className='italic'>“{body}”</p>
             
             <div className='flex  absolute bottom-4'>
@@ -28,6 +32,8 @@ const ReviewSection = ({Review}) => {
                     <FontAwesomeIcon className='h-24 text-gray-400' icon={faQuoteRight}/>
                 </div>
             </div>
+
+          </div>
             
         </div>
     );

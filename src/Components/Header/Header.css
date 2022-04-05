@@ -7,3 +7,31 @@
 }
 
 
+.top{
+    position: absolute;
+    padding: 40px 10px;
+    top: 80px;
+    right: 0;
+    background: rgb(180, 167, 167);
+    width: 100%;
+    z-index: 1;
+}
+.nagitive-top{
+    position: absolute;
+    top: -1000px;
+  
+}
+.call-btn{
+    display: none;
+}
+@media screen and (min-width: 800px) {
+    .nagitive-top{
+        display: flex;
+        position: static;
+        right: 0;
+        top: 0;
+    }
+    .call-btn{
+        display: block;
+    }
+  }

@@ -18,9 +18,9 @@ const details = blog.find(blg=> blg.id == idea)
     return (
         <div className='min-h-screen'>
          <div className='flex justify-center pb-14'>
-             <img className='w-9/12 h-auto border-2 m-5 ' src={details?.img} alt="" />
+             <img className='w-11/12 h-auto border-2 max-h-[550px] m-5 lg:w-9/12 ' src={details?.img} alt="" />
          </div>
-         <div className='w-9/12 m-5 mx-auto mb-44'>
+         <div className='w-9/12 m-5 mx-auto pb-44'>
              <h1 className='text-3xl font-heading mb-11'>{details?.title}</h1>
              <p>{details?.body}</p>
 
